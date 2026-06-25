@@ -19,3 +19,28 @@ GenAI Expert
 ## Why do System Prompts Matter?
 Ans-It controls AI's behavior, tone and style making it more useful and accurate for the specific tasks.
 
+## Tasks Completed
+
+* Created `prompts.py`
+* Added DSA Mentor persona
+* Added Career Coach persona
+* Added GenAI Mentor persona
+* Implemented persona selection in chatbot
+* Dynamically generated prompts based on selected persona
+* Added try-except error handling
+
+## Biggest Insight
+
+The same LLM can behave completely differently depending on the instructions (prompt) given to it.
+
+
+## Progress Summary
+
+My chatbot can now:
+
+* Take user input
+* Select different AI personas
+* Generate responses using Gemini API
+* Handle API errors gracefully
+
+Today's work moved the project from a basic chatbot to a customizable AI assistant.

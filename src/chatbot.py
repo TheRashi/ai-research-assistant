@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 import os
 from google import genai
+from tools import calculator
 from prompts import (
     DSA_MENTOR,
     CAREER_COACH,
@@ -36,6 +37,15 @@ while True:
     if question.lower()== "exit":
         print("Goodbye!")
         break
+
+    if question.lower().startswith("calculate"):
+        expression= question.replace("calculate", "").strip() ##strip() removes extra space
+        answer= calculator(expression)
+
+        print("\n calculator:")
+        print (answer)
+
+        continue
 
     prompt = f"""
     {selected_prompt}
