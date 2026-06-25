@@ -26,13 +26,17 @@ A production-grade AI assistant built from scratch while learning:
 - Understanding LLMs
 - Building chatbot
 
-Day 1 → Project Setup & Architecture
-        ↓
-Day 2 → Gemini API Chatbot
-        ↓
-Day 3 → Personas & Prompt Engineering
-        ↓
-Day 4 → Basic AI Agent with Tool Calling
+## Progress
+
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1 | Project Setup & Architecture | ✅ |
+| 2 | Gemini API Chatbot | ✅ |
+| 3 | Personas & Prompt Engineering | ✅ |
+| 4 | Basic AI Agent with Tool Calling | ✅ |
+| 5 | Conversation Memory | ⏳ |
+| 6 | Chat History | ⏳ |
+| ... | ... | ... |
 
 ### Week 2
 - Embeddings
